@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer" style="display: none;">
 		<div class="site-info">
 			
 			<span class="sep"> | </span>
