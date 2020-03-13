@@ -80,14 +80,6 @@ h1 {
 	margin: 0.67em 0;
 }
 
-header {
-	display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
-
 /* Grouping content
 	 ========================================================================== */
 
@@ -802,6 +794,15 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
+.site-header {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
 .clear:before,
 .clear:after,
 .entry-content:before,
