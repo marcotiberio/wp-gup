@@ -67,7 +67,8 @@ html {
  */
 
 body {
-	margin: 2%;
+	margin: 0;
+	padding: 2%;
 }
 
 /**
