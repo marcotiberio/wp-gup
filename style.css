@@ -68,6 +68,7 @@ html {
 
 body {
 	margin: 0;
+	padding: 2%;
 }
 
 /**
@@ -400,8 +401,6 @@ textarea {
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
-
-	padding: 2%;
 }
 
 h1, h2, h3, h4, h5, h6 {
