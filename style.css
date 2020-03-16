@@ -682,6 +682,8 @@ a:hover, a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	padding-right: 10%;
+    text-transform: uppercase;
 }
 
 .main-navigation a {
