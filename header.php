@@ -44,7 +44,7 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 		
-		<div>
+		<div class="nav-custom">
 			<nav id="site-navigation" class="main-navigation">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'gup_underscore' ); ?></button>
 				<?php
