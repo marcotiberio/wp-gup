@@ -1004,13 +1004,16 @@ object {
 .site-header {
 	display: flex;
   	flex-wrap: nowrap;
-  	justify-content: space-between;
+	justify-content: space-between;
+	border-bottom: 1px solid black;  
 }
 
 .site-branding {
 	width: 50%;
+	padding: 0 5%;
 }
 
 .nav-custom {
 	width: 50%;
+	padding: 1.5% 5%;
 }
