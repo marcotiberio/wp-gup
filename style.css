@@ -527,8 +527,7 @@ table {
 .site-header {
 	display: flex;
   	flex-wrap: nowrap;
-	  justify-content: space-between;
-	  flex-direction: row-reverse;
+  	justify-content: space-between;
 }
 
 /*--------------------------------------------------------------
