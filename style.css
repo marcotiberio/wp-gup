@@ -1032,6 +1032,10 @@ object {
 ## Footer
 --------------------------------------------------------------*/
 
+.site-footer {
+	background-color: grey;
+}
+
 .site-info {
 	display: none;
 }
