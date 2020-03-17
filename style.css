@@ -1040,6 +1040,10 @@ body {
 
 .site-footer {
 	background-color: grey;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1;
 }
 
 .site-info {
