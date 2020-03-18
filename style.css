@@ -1038,6 +1038,12 @@ body {
 ## Footer
 --------------------------------------------------------------*/
 
+.site-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
 .footer-custom {
 	background-color: grey;
 	display: grid;
@@ -1045,6 +1051,8 @@ body {
 	grid-template-rows: 1fr;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
+
+	text-align: center;
 }
 
 .site-info {
