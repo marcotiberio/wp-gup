@@ -1039,12 +1039,14 @@ body {
 --------------------------------------------------------------*/
 
 .footer-custom {
-	background-color: grey;
+	background-color: #222326;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
+
+	margin: 70px 0;
 }
 
 .footer-custom-column {
