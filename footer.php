@@ -24,15 +24,15 @@
 				) );
 				?>
 			</div>
-			<div class="footer-custom-column">
-				<p>EDITORIAL OFFICE</p>
+			<div class="footer-custom-column" id="footer-custom-col2">
+				<h6>EDITORIAL OFFICE</h6>
 				<p>
-				GUP Magazine
-				Lindengracht 35
-				1015 KB Amsterdam
-				The Netherlands
+				GUP Magazine<br>
+				Lindengracht 35<br>
+				1015 KB Amsterdam<br>
+				The Netherlands<br>
 				<br>
-				info@gupmagazine.com
+				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 				</p>
 			</div>
 			<div class="footer-custom-column">

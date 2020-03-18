@@ -1059,6 +1059,10 @@ body {
 	text-align: center;
 }
 
+#footer-custom-col2 p {
+	font-size: 8px;
+}
+
 .site-info {
 	display: none;
 }
