@@ -15,9 +15,9 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="footer-custom">
-			<div class="footer-custom-column">GUP Magazine</div>
-			<div class="footer-custom-column">GUP Magazine</div>
-			<div class="footer-custom-column">GUP Magazine</div>
+			<div class="footer-custom-column">LINKS</div>
+			<div class="footer-custom-column">EDITORIAL OFFICE</div>
+			<div class="footer-custom-column">FOLLOW US</div>
 		</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'gup_underscore' ) ); ?>">
