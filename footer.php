@@ -22,7 +22,7 @@
 					'theme_location' => 'footer-menu',
 					'container_class' => 'footer-menu',
 				) );
-
+				?>
 			</div>
 			<div class="footer-custom-column">EDITORIAL OFFICE</div>
 			<div class="footer-custom-column">FOLLOW US</div>
