@@ -24,8 +24,12 @@
 				) );
 				?>
 			</div>
-			<div class="footer-custom-column">EDITORIAL OFFICE</div>
-			<div class="footer-custom-column">FOLLOW US</div>
+			<div class="footer-custom-column">
+				<p>EDITORIAL OFFICE</p>
+			</div>
+			<div class="footer-custom-column">
+				<p>FOLLOW US</p>
+			</div>
 		</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'gup_underscore' ) ); ?>">
