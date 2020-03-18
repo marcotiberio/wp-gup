@@ -1047,6 +1047,10 @@ body {
 	grid-row-gap: 0px;
 }
 
+.footer-custom-column {
+	text-align: center;
+}
+
 .site-info {
 	display: none;
 }
