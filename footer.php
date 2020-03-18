@@ -15,7 +15,15 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="footer-custom">
-			<div class="footer-custom-column">LINKS</div>
+			<div class="footer-custom-column">
+				<p></p>LINKS
+				<?php
+				wp_nav_menu( array(
+					'theme_location' => 'footer-menu',
+					'container_class' => 'footer-menu',
+				) );
+
+			</div>
 			<div class="footer-custom-column">EDITORIAL OFFICE</div>
 			<div class="footer-custom-column">FOLLOW US</div>
 		</div>
