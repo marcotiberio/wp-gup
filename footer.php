@@ -26,6 +26,12 @@
 			</div>
 			<div class="footer-custom-column">
 				<p>EDITORIAL OFFICE</p>
+				GUP Magazine
+				Lindengracht 35
+				1015 KB Amsterdam
+				The Netherlands
+
+				info@gupmagazine.com
 			</div>
 			<div class="footer-custom-column">
 				<p>FOLLOW US</p>
