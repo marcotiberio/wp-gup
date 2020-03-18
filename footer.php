@@ -16,11 +16,11 @@
 	<footer id="colophon" class="site-footer">
 		<div class="footer-custom">
 			<div class="footer-custom-column">
-				<p></p>LINKS
+				<p>LINKS</p>
 				<?php
 				wp_nav_menu( array(
 					'theme_location' => 'footer-menu',
-					'container_class' => 'footer-menu',
+					'menu_id'        => 'footer-menu',
 				) );
 				?>
 			</div>
