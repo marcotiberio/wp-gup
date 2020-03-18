@@ -1038,7 +1038,7 @@ body {
 ## Footer
 --------------------------------------------------------------*/
 
-.site-footer {
+.footer-custom {
 	background-color: grey;
 	width: 100vw;
 	display: grid;
