@@ -1108,7 +1108,7 @@ body {
 	padding: 5%;
 }
 
-.post-list_title {
+.post-list_title a {
 	text-decoration: none;
 }
 
