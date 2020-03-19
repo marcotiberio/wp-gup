@@ -25,7 +25,7 @@
 				?>
 			</div>
 			<div class="footer-custom-column" id="footer-custom-col2">
-				<h3>EDITORIAL OFFICE</h3>
+				<h4>EDITORIAL OFFICE</h4>
 				<p>
 				GUP Magazine<br>
 				Lindengracht 35<br>
