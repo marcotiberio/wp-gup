@@ -1059,9 +1059,9 @@ body {
 	font-weight: 900;
 }
 
-.wp-block-separator.is-style-wide {
-	margin-left: 2%;
-	margin-right: 2%;
+.wp-block-separator .is-style-wide {
+	margin-left: 2% !important;
+	margin-right: 2% !important;
 }
 
 /*--------------------------------------------------------------
