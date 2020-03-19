@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: Manifesto */
+/* Template Name: Gup Online */
 ?>
 <?php get_header(); ?>
 
