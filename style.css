@@ -1110,6 +1110,12 @@ body {
 	grid-row-gap: 0px;
 }
 
+.magazine-page-image {
+	background-image: url('gup-online/test-image.png');
+  	background-size: cover;
+  	background-position: center;
+}
+
 #page1-2 {
 	background-color: indianred;
 }

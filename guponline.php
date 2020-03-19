@@ -4,8 +4,8 @@ get_header();
 ?>
 
 <section class="magazine-page" id="page1-2">
-    <div>ciao</div>
-    <div>ciao</div>
+    <div class="magazine-page-image"></div>
+    <div class="text">ciao</div>
 </section>
 
 <section class="magazine-page" id="page3-4">
