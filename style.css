@@ -1096,7 +1096,9 @@ body {
 }
 
 #footer-menu .menu-item a {
-	font-size: 10px;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
 }
 
 /*--------------------------------------------------------------
