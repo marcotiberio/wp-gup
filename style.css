@@ -1092,7 +1092,6 @@ body {
 --------------------------------------------------------------*/
 
 .magazine-page {
-	border: 10px solid red;
 	width: 100vw;
 	height: 100vh;
 
@@ -1101,4 +1100,24 @@ body {
 	grid-template-rows: 1fr;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
+}
+
+#page1-2 {
+	background-color: indianred;
+}
+
+#page3-4 {
+	background-color: lightyellow;
+}
+
+#page5-6 {
+	background-color: lightblue;
+}
+
+#page7-8 {
+	background-color: lightgrey;
+}
+
+#page9-10 {
+	background-color: lightsalmon;
 }
