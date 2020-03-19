@@ -690,6 +690,14 @@ a:hover, a:active {
     text-transform: uppercase;
 }
 
+.main-navigation li:hover {
+	float: left;
+	position: relative;
+	padding-right: 10%;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
 .main-navigation a {
 	display: block;
 	text-decoration: none;
