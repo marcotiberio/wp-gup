@@ -1,5 +1,6 @@
 <?php 
 /* Template Name: Gup Online */
+get_header();
 ?>
 
 <section class="magazine-page" id="page1-2">
