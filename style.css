@@ -1057,6 +1057,9 @@ body {
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
+.site-info {
+	display: none;
+}
 
 .footer-custom {
 	font-family: 'Lato', sans-serif;
@@ -1088,8 +1091,8 @@ body {
 	line-height: 1rem;
 }
 
-.site-info {
-	display: none;
+#footer-custom-col2 a:hover {
+	text-decoration: underline;
 }
 
 .menu-footer-menu-container ul {
