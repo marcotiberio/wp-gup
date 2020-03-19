@@ -1130,6 +1130,11 @@ body {
 	grid-row-gap: 0px;
 
 	font-size: 12px;
+	text-align: justify;
+}
+
+.magazine-page-article div {
+	padding: 3%;
 }
 
 .magazine-page-article h3 {
