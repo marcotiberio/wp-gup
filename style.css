@@ -1032,7 +1032,9 @@ body {
 }
 
 .main-navigation a:hover {
-	color: red;
+	color: black;
+	text-decoration: underline;
+	transition: ease-in-out 0.5s;
 }
 
 /*--------------------------------------------------------------
