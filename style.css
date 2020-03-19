@@ -1091,6 +1091,10 @@ body {
 ## Magazine Page
 --------------------------------------------------------------*/
 
+.page-template-guponline body {
+	padding: 0;
+}
+
 .page-template-guponline .site-header {
 	display: none;
 }
