@@ -37,6 +37,8 @@
 			</div>
 			<div class="footer-custom-column">
 				<h4>FOLLOW US</h4>
+				<p>
+				</p><i class="fab fa-facebook"></i><i class="fab fa-twitter-square"></i><i class="fab fa-instagram-square"></i>
 			</div>
 		</div>
 		<div class="site-info">
