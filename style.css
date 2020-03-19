@@ -1029,7 +1029,12 @@ body {
 
 .main-navigation a {
 	color: grey;
-	font-size: 10px;
+	font-size: 12px;
+}
+
+.main-navigation a:hover {
+	color: black;
+	text-decoration: underline;
 }
 
 /*--------------------------------------------------------------
