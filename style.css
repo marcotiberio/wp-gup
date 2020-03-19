@@ -1102,6 +1102,10 @@ body {
 	padding: 0;
 }
 
+#footer-menu li {
+	line-height: 1rem;
+}
+
 #footer-menu .menu-item a {
 	font-size: 12px;
 	color: white;
