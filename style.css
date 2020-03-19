@@ -1034,7 +1034,6 @@ body {
 .main-navigation a:hover {
 	color: black;
 	text-decoration: underline;
-	transition: ease-in-out 0.5s;
 }
 
 /*--------------------------------------------------------------
