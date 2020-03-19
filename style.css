@@ -1028,11 +1028,8 @@ body {
 }
 
 .main-navigation a {
-    color: grey;
-}
-
-.main-navigation a:hover {
-	color: black;
+	color: grey;
+	font-size: 10px;
 }
 
 /*--------------------------------------------------------------
