@@ -4,5 +4,7 @@
 
 <section class="magazine-page">
 
+    <div>ciao</div>
+    <div>ciao</div>
+
 </section>
-<div>ciao</div>
