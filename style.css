@@ -1111,12 +1111,16 @@ body {
 }
 
 .magazine-page-image {
+	width: 100%;
+	height: 100%;
 	background-image: url('gup-online/test-image.png');
   	background-size: cover;
   	background-position: top center;
 }
 
 .magazine-page-article {
+	width: 100%;
+	height: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
