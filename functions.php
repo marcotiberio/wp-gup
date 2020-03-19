@@ -161,6 +161,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 function custom_add_google_fonts() {
-	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,400i', false );
+	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap', false );
 	}
 	add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
