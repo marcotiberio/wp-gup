@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="footer-custom">
 			<div class="footer-custom-column">
-				<p>LINKS</p>
+				<h3>LINKS</h3>
 				<?php
 				wp_nav_menu( array(
 					'theme_location' => 'footer-menu',
@@ -25,7 +25,7 @@
 				?>
 			</div>
 			<div class="footer-custom-column" id="footer-custom-col2">
-				<h6>EDITORIAL OFFICE</h6>
+				<h3>EDITORIAL OFFICE</h3>
 				<p>
 				GUP Magazine<br>
 				Lindengracht 35<br>
@@ -36,7 +36,7 @@
 				</p>
 			</div>
 			<div class="footer-custom-column">
-				<p>FOLLOW US</p>
+				<h3>FOLLOW US</h3>
 			</div>
 		</div>
 		<div class="site-info">
