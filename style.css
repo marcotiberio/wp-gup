@@ -1113,7 +1113,18 @@ body {
 .magazine-page-image {
 	background-image: url('gup-online/test-image.png');
   	background-size: cover;
-  	background-position: center;
+  	background-position: top center;
+}
+
+.magazine-page-article_text {
+	width: 100vw;
+	height: 100vh;
+	
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
 }
 
 #page1-2 {
