@@ -159,3 +159,8 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+function custom_add_google_fonts() {
+	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,400i', false );
+	}
+	add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
