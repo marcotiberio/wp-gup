@@ -1108,7 +1108,12 @@ body {
 	padding: 5%;
 }
 
+.post-list_col-dx {
+	margin-top: 0;
+}
+
 .post-list_title a {
+	margin-top: 0;
 	text-decoration: none;
 }
 
