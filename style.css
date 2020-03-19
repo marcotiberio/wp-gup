@@ -1126,6 +1126,12 @@ body {
 	grid-template-rows: 1fr;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
+
+	font-size: 10px;
+}
+
+.magazine-page-article h3 {
+	text-align: right;
 }
 
 #page1-2 {
