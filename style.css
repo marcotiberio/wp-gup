@@ -1077,7 +1077,13 @@ body {
 }
 
 #footer-custom-col2 p {
-	font-size: 10px;
+	font-size: 12px;
+}
+
+#footer-custom-col2 a {
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
 }
 
 .site-info {
