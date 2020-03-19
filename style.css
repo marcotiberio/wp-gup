@@ -1014,7 +1014,8 @@ object {
 ## Overall
 --------------------------------------------------------------*/
 body {
-	padding: 0.5% 0 0 0;
+	padding: 0;
+	margin: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1025,6 +1026,7 @@ body {
 	display: flex;
   	flex-wrap: nowrap;
 	justify-content: space-between;
+	height: 70px;
 }
 
 .site-branding {
