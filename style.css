@@ -1033,12 +1033,14 @@ body {
 }
 
 .sub-menu {
-	box-shadow: none;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
     float: left;
     position: absolute;
     top: 100%;
     left: -999em;
     z-index: 99999;
+    background-color: white;
+    padding: 4px;
 }
 
 /*--------------------------------------------------------------
