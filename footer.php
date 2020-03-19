@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer">
 		<div class="footer-custom">
 			<div class="footer-custom-column">
-				<h3>LINKS</h3>
+				<h4>LINKS</h4>
 				<?php
 				wp_nav_menu( array(
 					'theme_location' => 'footer-menu',
@@ -36,7 +36,7 @@
 				</p>
 			</div>
 			<div class="footer-custom-column">
-				<h3>FOLLOW US</h3>
+				<h4>FOLLOW US</h4>
 			</div>
 		</div>
 		<div class="site-info">
