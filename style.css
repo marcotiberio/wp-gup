@@ -1116,7 +1116,7 @@ body {
   	background-position: top center;
 }
 
-.magazine-page-article_text {
+.magazine-page-article {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;

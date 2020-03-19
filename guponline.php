@@ -6,9 +6,8 @@ get_header();
 <section class="magazine-page" id="page1-2">
     <div class="magazine-page-image"></div>
     <div class="magazine-page-article">
-        <h3>Kowalski set out to capture snow-covered terrain in Poland from the sky</h3>
-        <div class="magazine-page-article_text">
             <div>
+            <h3>Kowalski set out to capture snow-covered terrain in Poland from the sky</h3>
             <p>Having removed himself from the earth, both physically and mentally, he floats over the country and from his open cockpit (or sometimes paragliding) he is faced with the ambiguous forms and shapes as seen from such an altitude. From this extreme vantage point, the landscape transgresses his referential horizon, his primordial ‘radar’ gets a turbo-boost, and his being transforms into another ‘Dasein’ – which, as a concept, literally means ‘Being-there’.
             The philosopher Martin Heidegger (1889–1976) initially introduced the German expression ‘Dasein’ as the essence of being human, as an individual. It by now includes issues such as personhood, mortality and the dilemma or paradox of living in relationship with all that exists simultaneously with and in oneself. In short, ‘Dasein’ defines a kind of existential ‘wokeness’. From this lonely height, Kowalski started to ask himself: “Who am I? What am I doing here?” But also: “What would the world be like without culture, when everything that has been imposed on it has been erased?”
             _
