@@ -1108,6 +1108,10 @@ body {
 	padding: 5%;
 }
 
+.post-list_title {
+	text-decoration: none;
+}
+
 
 /*--------------------------------------------------------------
 ## Magazine Page
