@@ -1165,6 +1165,10 @@ body {
     margin: 2% 10%;
 }
 
+.entry-content p {
+    text-align: justify;
+}
+
 
 /*--------------------------------------------------------------
 ## Magazine Page
