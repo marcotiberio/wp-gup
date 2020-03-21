@@ -1165,6 +1165,10 @@ body {
     text-align: justify;
 }
 
+#post-title {
+	text-align: center;
+}
+
 #post-content {
 	margin: 2% 10%;
 
