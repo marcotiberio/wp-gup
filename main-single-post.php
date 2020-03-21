@@ -41,7 +41,7 @@
     <hr>
     
     <div id="post-content">
-        <div>
+        <div class="post-credits">
             <div>
                 <h4>Artist</h4>
                 <p><?php the_field('post_credits_artist'); ?></p>
@@ -56,7 +56,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="post-text">
             <p><?php the_field('post_text'); ?></p>
         </div>
 		

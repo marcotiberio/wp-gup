@@ -1169,6 +1169,14 @@ body {
 	text-align: center;
 }
 
+.post-credits div h4 {
+	margin-bottom: 0;
+}
+
+.post-credits div p {
+	margin-bottom: 0;
+}
+
 #post-content {
 	margin: 2% 10%;
 
