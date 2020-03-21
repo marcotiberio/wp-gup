@@ -1087,7 +1087,6 @@ body {
 }
 
 .footer-custom {
-	font-family: 'Lato', sans-serif;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr;
@@ -1102,6 +1101,15 @@ body {
 
 .footer-custom-column {
 	text-align: center;
+}
+
+.footer-custom-column h4 {
+	text-align: center;
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    font-weight: 400;
+    color: grey;
+	text-transform: uppercase;
 }
 
 #footer-custom-col2 p {
