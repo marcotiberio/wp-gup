@@ -33,7 +33,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<div></div>
+		<div>test</div>
 		<div>
 		<?php
 		the_content( sprintf(
