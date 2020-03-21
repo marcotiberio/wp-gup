@@ -37,6 +37,8 @@
     <div id="post-title">
         <h2><?php the_field('post_title'); ?></h2>
     </div>
+
+    <hr>
     
     <div id="post-content">
         <div>
