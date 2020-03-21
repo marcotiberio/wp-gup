@@ -33,25 +33,15 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php
-		the_content( sprintf(
-			wp_kses(
-				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'gup_underscore' ),
-				array(
-					'span' => array(
-						'class' => array(),
-					),
-				)
-			),
-			get_the_title()
-		) );
+			<?php while ( have_posts() ) : the_post(); ?>
 
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'gup_underscore' ),
-			'after'  => '</div>',
-		) );
-		?>
+				<p><?php the_field('credits'); ?></p>
+
+				<p><?php the_field('article_text'); ?></p>
+
+				<p><?php the_content(); ?></p>
+
+			<?php endwhile; // end of the loop. ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
