@@ -8,7 +8,11 @@
 
 <div class="wrap">
     
-    <img src="<?php the_field('hero_image'); ?>" />
+    <div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+			<?php the_content(); ?>
+		</main>
+	</div>
     
     <div id="post-content">
 
