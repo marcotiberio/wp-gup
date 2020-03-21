@@ -33,9 +33,18 @@
     <div id="post-content">
 
         <div>
-            <p><?php the_field('post_credits_artist'); ?></p>
-            <p><?php the_field('post_credits_artist_website'); ?></p>
-            <p><?php the_field('post_credits_artist_place'); ?></p>
+            <div>
+                <h4>Artist</h4>
+                <p><?php the_field('post_credits_artist'); ?></p>
+            </div>
+            <div>
+                <h4>Artist Website</h4>
+                <p><?php the_field('post_credits_artist_website'); ?></p>
+            </div>
+            <div>
+                <h4>Place</h4>
+                <p><?php the_field('post_credits_artist_place'); ?></p>
+            </div>
         </div>
         <div>
             <p><?php the_field('post_text'); ?></p>
