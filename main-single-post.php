@@ -30,8 +30,8 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
     
+    <div id="post-title"><h2><?php the_field('post_title'); ?></h2></div>
     <div id="post-content">
-
         <div>
             <div>
                 <h4>Artist</h4>
@@ -46,6 +46,7 @@
                 <p><?php the_field('post_credits_artist_place'); ?></p>
             </div>
         </div>
+
         <div>
             <p><?php the_field('post_text'); ?></p>
         </div>
