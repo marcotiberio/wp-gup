@@ -7,18 +7,13 @@
  get_header();  ?>
 
 <div class="wrap">
-	
-	<div id="event-hero">
-
     
+    <img src="<?php the_field('hero_image'); ?>" />
+    
+    <div id="post-content">
 
-			<p><?php the_field('credits'); ?></p>
-			<p><?php the_field('article_text'); ?></p>
-
-			<img src="<?php the_field('hero_image'); ?>" />
-
-			<p><?php the_content(); ?></p>
-
+        <div><p><?php the_field('credits'); ?></p></div>
+        <div><p><?php the_field('article_text'); ?></p></div>
 		
 	</div>
 	
