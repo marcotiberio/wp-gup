@@ -36,10 +36,6 @@
         <div><p><?php the_field('article_text'); ?></p></div>
 		
     </div>
-    
-    <footer class="entry-footer">
-		<?php gup_underscore_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 	
 </div>
 
