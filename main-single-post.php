@@ -32,7 +32,11 @@
     
     <div id="post-content">
 
-        <div><p><?php the_field('post_credits'); ?></p></div>
+        <div>
+            <p><?php the_field('post_credits_artist'); ?></p>
+            <p><?php the_field('post_credits_artist_website'); ?></p>
+            <p><?php the_field('post_credits_artist_place'); ?></p>
+        </div>
         <div><p><?php the_field('post_text'); ?></p></div>
 		
     </div>
