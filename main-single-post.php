@@ -13,7 +13,7 @@
     
 
 			<p><?php the_field('credits'); ?></p>
-			<p><?php the_field('article-text'); ?></p>
+			<p><?php the_field('article_text'); ?></p>
 
 			<img src="<?php the_field('hero_image'); ?>" />
 
