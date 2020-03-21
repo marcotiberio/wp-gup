@@ -28,9 +28,7 @@
 		?>
 
 		</main><!-- #main -->
-    </div><!-- #primary -->
-    
-    <?php echo get_the_title( $post_id ); ?>
+	</div><!-- #primary -->
     
     <div id="post-content">
 
