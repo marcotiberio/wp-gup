@@ -1197,6 +1197,14 @@ body {
 	text-align: justify;
 }
 
+.post-text p .aligncenter {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+
+
 
 /*--------------------------------------------------------------
 ## Magazine Page
