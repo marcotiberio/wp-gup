@@ -1163,8 +1163,8 @@ body {
 ## Posts
 --------------------------------------------------------------*/
 
-.entry-header {
-	text-align: center;
+.post .entry-header {
+	display: none;
 }
 
 .entry-content p {
