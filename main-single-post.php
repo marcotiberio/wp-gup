@@ -30,7 +30,14 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
     
-    <div id="post-title"><h2><?php the_field('post_title'); ?></h2></div>
+    <!-- CUSTOM POST LAYOUT -->
+    <!-- CUSTOM POST LAYOUT -->
+    <!-- CUSTOM POST LAYOUT -->
+
+    <div id="post-title">
+        <h2><?php the_field('post_title'); ?></h2>
+    </div>
+    
     <div id="post-content">
         <div>
             <div>
