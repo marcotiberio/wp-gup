@@ -30,7 +30,7 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
     
-    <div><h2><?php the_field('post_title'); ?></h2></div>
+    <h2><?php the_field('post_title'); ?></h2>
 
     <div id="post-content">
 
