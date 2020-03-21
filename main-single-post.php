@@ -48,7 +48,11 @@
             </div>
             <div>
                 <h4>Artist Website</h4>
-                <p><?php the_field('post_credits_artist_website'); ?></p>
+                <?php 
+                $link = get_field('link');
+                if( $link ): ?>
+                    <a class="button" href="<?php echo esc_url( $link ); ?>">Continue Reading</a>
+                <?php endif; ?>
             </div>
             <div>
                 <h4>Place</h4>
