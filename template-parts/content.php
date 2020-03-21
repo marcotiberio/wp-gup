@@ -33,6 +33,8 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+		<div></div>
+		<div>
 		<?php
 		the_content( sprintf(
 			wp_kses(
@@ -52,6 +54,7 @@
 			'after'  => '</div>',
 		) );
 		?>
+		</div>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
