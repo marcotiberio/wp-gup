@@ -38,14 +38,6 @@
         <div><p><?php the_field('post_text'); ?></p></div>
 		
     </div>
-
-    <?php
-		while ( have_posts() ) :
-
-			the_post_navigation();
-
-		endwhile; // End of the loop.
-		?>
 	
 </div>
 
