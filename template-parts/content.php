@@ -33,16 +33,6 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-	<?php
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				gup_underscore_posted_on();
-				gup_underscore_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
 		<?php
 		the_content( sprintf(
 			wp_kses(
