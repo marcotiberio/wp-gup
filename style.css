@@ -1187,6 +1187,10 @@ body {
 	grid-row-gap: 0px;
 }
 
+#post-text p {
+	text-align: justify;
+}
+
 
 /*--------------------------------------------------------------
 ## Magazine Page

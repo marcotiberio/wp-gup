@@ -38,7 +38,7 @@
         <h2><?php the_field('post_title'); ?></h2>
     </div>
 
-    <hr>
+    <hr style="margin: 0 10%;">
     
     <div id="post-content">
         <div class="post-credits">
