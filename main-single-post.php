@@ -30,6 +30,8 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
     
+    <h2><?php the_field('post_title'); ?></h2>
+
     <div id="post-content">
 
         <div><p><?php the_field('post_credits'); ?></p></div>
