@@ -84,7 +84,7 @@ $args=array(
 
 $my_query = new wp_query( $args );
 if( $my_query->have_posts() ) {
-echo '<div id="related_posts"><h3>Related Posts</h3><div class="elated_posts-grid">';
+echo '<div id="related_posts"><h3>Related Posts</h3><div class="related_posts-grid">';
 while( $my_query->have_posts() ) {
 $my_query->the_post();?>
 
