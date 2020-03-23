@@ -94,7 +94,6 @@ $my_query->the_post();?>
         <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
         <div class="relatedcontent">
             <h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-            <p><?php the_excerpt(); ?></p>
         </div>
     </div>
 <?
