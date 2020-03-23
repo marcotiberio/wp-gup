@@ -90,9 +90,9 @@ $my_query->the_post();?>
 
     <div class="relatedthumb">
         <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
-    </div>
-    <div class="relatedcontent">
-        <h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+        <div class="relatedcontent">
+            <h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+        </div>
     </div>
 <?
 }
