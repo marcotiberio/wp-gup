@@ -88,12 +88,19 @@ echo '<div id="related_posts"><h3>Related Posts</h3><ul>';
 while( $my_query->have_posts() ) {
 $my_query->the_post();?>
 
-<li><div class="relatedthumb"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a></div>
-<div class="relatedcontent">
-<h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-<?php the_time('M j, Y') ?>
+<div class="related_posts-grid">
+    <li>
+        <div class="relatedthumb">
+            <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
+        </div>
+        <div class="relatedcontent">
+            <h3>
+                <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+            </h3>
+            <?php the_time('M j, Y') ?>
+        </div>
+    </li>
 </div>
-</li>
 <?
 }
 echo '</ul></div>';
