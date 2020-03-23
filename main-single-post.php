@@ -84,26 +84,17 @@ $args=array(
 
 $my_query = new wp_query( $args );
 if( $my_query->have_posts() ) {
-echo '<div id="related_posts"><h3>Related Posts</h3><ul>';
+echo '<div id="related_posts"><h3>Related Posts</h3><div class="elated_posts-grid">';
 while( $my_query->have_posts() ) {
 $my_query->the_post();?>
 
-<div class="related_posts-grid">
-    <li>
-        <div class="relatedthumb">
-            <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
-        </div>
-        <div class="relatedcontent">
-            <h3>
-                <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-            </h3>
-            <?php the_time('M j, Y') ?>
-        </div>
-    </li>
+<div class="relatedthumb"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a></div>
+<div class="relatedcontent">
+<h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
 </div>
 <?
 }
-echo '</ul></div>';
+echo '</div></div>';
 }
 }
 $post = $orig_post;
