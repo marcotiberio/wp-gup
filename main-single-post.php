@@ -88,9 +88,13 @@ echo '<div id="related_posts"><h3>Related Posts</h3><div class="related_posts-gr
 while( $my_query->have_posts() ) {
 $my_query->the_post();?>
 
-<div class="relatedthumb"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a></div>
-<div class="relatedcontent">
-<h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+<div class="relatedgrid">
+    <div class="relatedthumb">
+        <a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
+    </div>
+    <div class="relatedcontent">
+        <h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+    </div>
 </div>
 <?
 }
