@@ -1085,6 +1085,26 @@ body {
 	padding: 4% 13%;
 }
 
+.addresses {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 900px) {
+
+	.addresses {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+	}
+
+}
+
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
