@@ -624,14 +624,21 @@ textarea {
 --------------------------------------------------------------*/
 a {
 	color: #555;
+	text-decoration: underline;
 }
 
 a:visited {
 	color: #555;
+	text-decoration: underline;
+}
+
+a:focus, a:active {
+	color: #555;
+	text-decoration: underline;
 }
 
 a:hover, a:focus, a:active {
-	color: #555;
+	color: lightgray;
 	text-decoration: underline;
 }
 
