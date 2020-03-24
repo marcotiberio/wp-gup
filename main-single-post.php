@@ -57,6 +57,7 @@
             <div>
                 <h4>Place</h4>
                 <p><?php the_field('post_credits_artist_place'); ?></p>
+                <p><?php the_field('post_credits_artist_place_date'); ?></p>
             </div>
         </div>
 
