@@ -20,6 +20,11 @@
 
 		endwhile; // End of the loop.
 		?>
+		<div class="addresses">
+			<div><?php the_field('editorial_office'); ?></div>
+			<div><?php the_field('customer_service'); ?></div>
+			<div><?php the_field('advertising_corporate'); ?></div>
+		</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
