@@ -1093,7 +1093,7 @@ body {
 	grid-row-gap: 0px;
 }
 
-@media only screen (max-width: 900px) {
+@media only screen and (max-width: 900px) {
 
 	.addresses {
 		display: grid;
