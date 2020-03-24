@@ -1239,11 +1239,11 @@ body {
 }
 
 #post-content .post-credits {
-	/* flex-basis: 30%; */
+	flex-basis: 30%;
 }
 
 #post-content .post-text {
-	/* flex-basis: 70%; */
+	flex-basis: 70%;
 }
 
 .post-text p {
@@ -1307,6 +1307,14 @@ body {
 		grid-template-rows: 1fr;
 		grid-column-gap: 0px;
 		grid-row-gap: 0px; */
+	}
+
+	#post-content .post-credits {
+		flex-basis: 100% !important;
+	}
+	
+	#post-content .post-text {
+		flex-basis: 100% !important;
 	}
 
 	.related_posts-grid {
