@@ -1244,6 +1244,57 @@ body {
 	width: 100%;
 }
 
+.post-navigation {
+	display: none;
+}
+
+.entry-header {
+	text-align: center;
+}
+
+#related_posts {
+	margin: 4% 0
+}
+
+#related_posts h3 {
+	text-align: center;
+}
+
+#related_posts h3 a {
+  	text-align: center;
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+  	font-weight: 700;
+  	color: #333333;
+  	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+.related_posts-grid {
+	margin-top: 2%;
+	padding: 0 10%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.relatedthumb {
+	padding: 0 2%;
+}
+
+@media only screen and (max-width: 900px) {
+	.related_posts-grid {
+		margin-top: 2%;
+		padding: 0 10%;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+	}
+}
+
 
 
 
