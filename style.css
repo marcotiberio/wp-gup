@@ -669,14 +669,16 @@ a:hover, a:active {
 }
 
 .main-navigation ul ul {
-	box-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+	/* box-shadow: 3px 3px 3px rgba(0, 0, 0, 1); */
     float: left;
     position: absolute;
     top: 100%;
     left: -999em;
     z-index: 99999;
     background-color: white;
-    padding: 4px;
+	padding: 4px;
+	
+	border: 1px solid grey;
 }
 
 .main-navigation ul ul ul {
