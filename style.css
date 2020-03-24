@@ -638,7 +638,7 @@ a:focus, a:active {
 }
 
 a:hover, a:focus, a:active {
-	color: lightgray;
+	color: grey;
 	text-decoration: underline;
 }
 
