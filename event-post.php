@@ -44,9 +44,8 @@
         <div class="post-credits">
             <div>
                 <?php if( get_field('post_credits_type') ): ?>
-                    <p>Type 
-                    <br>
-                    <?php the_field('post_credits_type'); ?></p>
+                    <h4>Type</h4>
+                    <p><?php the_field('post_credits_type'); ?></h4></p>
                 <?php endif; ?>
             </div>
             <div>
