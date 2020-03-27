@@ -1449,31 +1449,27 @@ body {
 	background-color: white;
 	color: black;
 	border: 5px solid black;
-	padding: 2%;
-
-	z-index: 9999;
+	padding: 4% 1% 0 2%;
 }
 
 .modal--header {
 	display: block;
 	text-align: center;
+	/* grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px; */
 }
 
 .modal--header_close {
 	position: absolute;
-    top: 1%;
-	right: 5%;
-	
+  top: 2%;
+  right: 3%;
 	cursor: pointer;
 }
 
 .modal--body {
-	text-align: left;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr;
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
+	text-align: center;
 }
 
 .modal--body_title {
@@ -1485,15 +1481,17 @@ body {
 }
 
 .modal--body_title-button {
-	
+    height: 70%;
 }
 
 .modal--body h1 {
 	margin-top: 0;
-	font-size: 60px;
+	font-size: 40px;
+	line-height: 42px;
+	text-align: left;
 }
 
 .modal--body_image {
-	width: 200px;
+	width: 150px;
 	height: auto;
 }
