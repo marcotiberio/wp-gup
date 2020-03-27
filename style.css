@@ -1463,3 +1463,8 @@ body {
 .modal--header_close {
 	text-align: right;
 }
+
+.modal--header_body img {
+	width: 150px;
+	height: auto;
+}
