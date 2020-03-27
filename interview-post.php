@@ -46,7 +46,7 @@
                 <h4>GUP Author</h4>
                 <p><?php the_field('interview_credits_author'); ?></p>
             </div>
-            <hr style="padding-right:20%;">
+            <hr style="margin-right:40%;">
             <div>
                 <h4>Artist</h4>
                 <span><?php the_field('interview_credits_artist'); ?></span>
