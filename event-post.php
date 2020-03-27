@@ -43,8 +43,11 @@
     <div id="post-content">
         <div class="post-credits">
             <div>
-                <h4>Type</h4>
-                <p><?php the_field('post_credits_type'); ?></p>
+                <?php if( get_field('post_credits_type') ): ?>
+                    <p>Type 
+                    <br>
+                    <?php the_field('post_credits_type'); ?></p>
+                <?php endif; ?>
             </div>
             <div>
                 <?php if( get_field('event_credits_date') ): ?>
