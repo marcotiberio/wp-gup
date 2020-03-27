@@ -1478,6 +1478,7 @@ body {
 
 .modal--body h1 {
 	margin-top: 0;
+	font-size: 60px;
 }
 
 .modal--body_image {
