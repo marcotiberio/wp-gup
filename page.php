@@ -35,7 +35,7 @@ get_header();
 		</main><!-- #main -->
 
 		<section id="modal">
-			<div class="modal--header_close" id="closeModal"><img src="https://gup.devijgstudio.com/wp-content/uploads/2020/03/close-e1585331267337.png"></div>
+			<div class="modal--header_close" id="closeModal"><img src="assets/img/close.svg"></div>
 			<main class="modal--body">
 				<div>
 					<h1><?php the_field('pop-up_title'); ?></h1>
