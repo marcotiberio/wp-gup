@@ -1446,15 +1446,16 @@ body {
 	right: 0;
 	width: 500px;
 	height: 200px;
-	background-color: blue;
-	color: white;
-	padding: 10%;
+	background-color: white;
+	color: black;
+	border: 5px solid black;
+	padding: 2%;
 }
 
 .modal--header {
 	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 }
