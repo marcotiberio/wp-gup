@@ -48,7 +48,7 @@
             </div>
             <div>
                 <h4>When and where</h4>
-                <span><?php the_field('post_credits_date'); ?></span>
+                <span><?php the_field('event_credits_date'); ?></span>
                 <br>
                 <span><?php the_field('event_credits_place'); ?></span>
             </div>
