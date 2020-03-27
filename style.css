@@ -1447,4 +1447,6 @@ body {
 	width: 500px;
 	height: 200px;
 	background-color: blue;
+	color: white;
+	padding: 10%;
 }
