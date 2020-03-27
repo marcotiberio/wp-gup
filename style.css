@@ -1484,6 +1484,10 @@ body {
 	grid-row-gap: 0px;
 }
 
+.modal--body_title-button {
+	
+}
+
 .modal--body h1 {
 	margin-top: 0;
 	font-size: 60px;

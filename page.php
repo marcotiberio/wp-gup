@@ -39,7 +39,7 @@ get_header();
 			<main class="modal--body">
 				<div class="modal--body_title">
 					<h1><?php the_field('pop-up_title'); ?></h1>
-					<button>ciao</button>
+					<button class="modal--body_title-button">ciao</button>
 				</div>
 				<div>
 					<?php if( get_field('pop-up_image') ): ?>
