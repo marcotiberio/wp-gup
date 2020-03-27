@@ -43,21 +43,29 @@
     <div id="post-content">
         <div class="post-credits">
             <div>
-                <h4>GUP Author</h4>
-                <p><?php the_field('portfolio_credits_author'); ?></p>
+                <?php if( get_field('portfolio_credits_author') ): ?>
+                    <h4>GUP Author</h4>
+                    <p><?php the_field('portfolio_credits_author'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <hr style="margin-right:40%;">
             <div>
-                <h4>Artist</h4>
-                <span><?php the_field('portfolio_credits_artist'); ?></span>
+                <?php if( get_field('portfolio_credits_artist') ): ?>
+                    <h4>Artist</h4>
+                    <p><?php the_field('portfolio_credits_artist'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Artist Website</h4>
-                <span><?php the_field('portfolio_credits_artist-website'); ?></span>
+                <?php if( get_field('portfolio_credits_artist-website') ): ?>
+                    <h4>Artist Website</h4>
+                    <p><?php the_field('portfolio_credits_artist-website'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Social Media</h4>
-                <p><?php the_field('portfolio_credits_social-media'); ?></p>
+                <?php if( get_field('portfolio_credits_social-media') ): ?>
+                    <h4>Social Media</h4>
+                    <p><?php the_field('portfolio_credits_social-media'); ?></h4></p>
+                <?php endif; ?>
             </div>
         </div>
 
