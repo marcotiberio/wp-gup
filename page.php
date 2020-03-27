@@ -35,7 +35,7 @@ get_header();
 		</main><!-- #main -->
 
 		<section id="modal">
-			<div class="modal--header_close" id="closeModal">X</div>
+			<div class="modal--header_close" id="closeModal"><img src="assets/img/close.svg"></div>
 			<header class="modal--header">
 				<div class="modal--header_title"><h3><?php the_field('pop-up_title'); ?></h3></div>
 			</header>
