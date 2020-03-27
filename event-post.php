@@ -47,8 +47,11 @@
                 <p><?php the_field('post_credits_type'); ?></p>
             </div>
             <div>
-                <h4>When</h4>
-                <span><?php the_field('event_credits_date'); ?></span>
+                <?php if( get_field('event_credits_date') ): ?>
+                    <p>When 
+                    <br>
+                    <?php the_field('event_credits_date'); ?></p>
+                <?php endif; ?>
             </div>
             <div>
                 <h4>Where</h4>
