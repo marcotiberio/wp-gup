@@ -1464,6 +1464,10 @@ body {
 	text-align: right;
 }
 
+.modal--header_body {
+	text-align: center;
+}
+
 .modal--body_image {
 	width: 150px;
 	height: auto;
