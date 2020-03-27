@@ -1209,8 +1209,20 @@ body {
 	text-decoration: none;
 }
 
+/*--------------------------------------------------------------
+## Custom Pages
+--------------------------------------------------------------*/
+
 .content-area--page-main {
 	padding: 2% 5% 5% 5%;
+}
+
+.content-area--page-main .heading {
+	margin-bottom: 0;
+}
+
+.content-area--page-main .subheading {
+	margin-top: 0;
 }
 
 /*--------------------------------------------------------------
