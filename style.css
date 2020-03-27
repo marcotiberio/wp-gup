@@ -1450,6 +1450,8 @@ body {
 	color: black;
 	border: 5px solid black;
 	padding: 2%;
+
+	z-index: 9999;
 }
 
 .modal--header {
@@ -1468,6 +1470,6 @@ body {
 }
 
 .modal--body_image {
-	width: 150px;
+	width: 200px;
 	height: auto;
 }
