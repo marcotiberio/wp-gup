@@ -35,7 +35,13 @@ get_header();
 		</main><!-- #main -->
 
 		<section id="modal">
-			test
+			<header class="modal--header">
+				<div>Title</div>
+				<div>X</div>
+			</header>
+			<main class="modal--body">
+				<p>Test</p>
+			</main>
 		</section>
 	</div><!-- #primary -->
 
