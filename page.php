@@ -36,13 +36,15 @@ get_header();
 
 		<section id="modal">
 			<div class="modal--header_close" id="closeModal"><img src="assets/img/close.svg"></div>
-			<header class="modal--header">
-				<div class="modal--header_title"><h3><?php the_field('pop-up_title'); ?></h3></div>
-			</header>
 			<main class="modal--body">
-			<?php if( get_field('pop-up_image') ): ?>
-				<img class="modal--body_image" src="<?php the_field('pop-up_image'); ?>" />
-			<?php endif; ?>
+				<div>
+					<h3><?php the_field('pop-up_title'); ?></h3>
+				</div>
+				<div>
+					<?php if( get_field('pop-up_image') ): ?>
+						<img class="modal--body_image" src="<?php the_field('pop-up_image'); ?>" />
+					<?php endif; ?>
+				</div>
 			</main>
 		</section>
 	</div><!-- #primary -->
