@@ -35,8 +35,8 @@ get_header();
 		</main><!-- #main -->
 
 		<section id="modal">
-		test
-	</section>
+			test
+		</section>
 	</div><!-- #primary -->
 
 <?php
