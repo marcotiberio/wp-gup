@@ -37,8 +37,9 @@ get_header();
 		<section id="modal">
 			<div class="modal--header_close" id="closeModal">X</div>
 			<main class="modal--body">
-				<div>
+				<div class="modal--body_title">
 					<h1><?php the_field('pop-up_title'); ?></h1>
+					<button>ciao</button>
 				</div>
 				<div>
 					<?php if( get_field('pop-up_image') ): ?>

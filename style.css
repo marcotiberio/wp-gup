@@ -1476,6 +1476,14 @@ body {
 	grid-row-gap: 0px;
 }
 
+.modal--body_title {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(2, 1fr);;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
 .modal--body h1 {
 	margin-top: 0;
 	font-size: 60px;
