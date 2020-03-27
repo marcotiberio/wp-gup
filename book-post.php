@@ -43,50 +43,72 @@
     <div id="post-content">
         <div class="post-credits">
             <div>
-                <h4>GUP Author</h4>
-                <p><?php the_field('book_credits_author'); ?></p>
+                <?php if( get_field('book_credits_author') ): ?>
+                    <h4>GUP Author</h4>
+                    <p><?php the_field('book_credits_author'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <hr style="margin-right:40%;">
             <div>
-                <h4>Artist</h4>
-                <span><?php the_field('book_credits_artist'); ?></span>
+                <?php if( get_field('book_credits_artist') ): ?>
+                    <h4>Artist</h4>
+                    <p><?php the_field('book_credits_artist'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Artist Website</h4>
-                <span><?php the_field('book_credits_artist-website'); ?></span>
+                <?php if( get_field('book_credits_artist-website') ): ?>
+                    <h4>Artist Website</h4>
+                    <p><?php the_field('book_credits_artist-website'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Artist Social Media</h4>
-                <p><?php the_field('book_credits_artist-social-media'); ?></p>
+                <?php if( get_field('book_credits_artist-social-media') ): ?>
+                    <h4>Artist Social Media</h4>
+                    <p><?php the_field('book_credits_artist-social-media'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <hr style="margin-right:40%;">
             <div>
-                <h4>Title</h4>
-                <p><?php the_field('book_credits_book-title'); ?></p>
+                <?php if( get_field('book_credits_book-title') ): ?>
+                    <h4>Title</h4>
+                    <p><?php the_field('book_credits_book-title'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Publisher</h4>
-                <p><?php the_field('book_credits_book-publisher'); ?></p>
+                <?php if( get_field('book_credits_book-publisher') ): ?>
+                    <h4>Publisher</h4>
+                    <p><?php the_field('book_credits_book-publisher'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Format</h4>
-                <p><?php the_field('book_credits_book-format'); ?></p>
+                <?php if( get_field('book_credits_book-format') ): ?>
+                    <h4>Format</h4>
+                    <p><?php the_field('book_credits_book-format'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Price</h4>
-                <p><?php the_field('book_credits_book-price'); ?></p>
+                <?php if( get_field('book_credits_book-price') ): ?>
+                    <h4>Price</h4>
+                    <p><?php the_field('book_credits_book-price'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Cover</h4>
-                <p><?php the_field('book_credits_book-cover'); ?></p>
+                <?php if( get_field('book_credits_book-cover') ): ?>
+                    <h4>Cover</h4>
+                    <p><?php the_field('book_credits_book-cover'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Publisher Website</h4>
-                <p><?php the_field('book_credits_publisher-website'); ?></p>
+                <?php if( get_field('book_credits_publisher-website') ): ?>
+                    <h4>Publisher Website</h4>
+                    <p><?php the_field('book_credits_publisher-website'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Publisher Social Media</h4>
-                <p><?php the_field('book_credits_publisher-social-media'); ?></p>
+                <?php if( get_field('book_credits_publisher-social-media') ): ?>
+                    <h4>Publisher Social Media</h4>
+                    <p><?php the_field('book_credits_publisher-social-media'); ?></h4></p>
+                <?php endif; ?>
             </div>
         </div>
 
