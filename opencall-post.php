@@ -43,20 +43,28 @@
     <div id="post-content">
         <div class="post-credits">
             <div>
-                <h4>Organisation</h4>
-                <p><?php the_field('opencall_credits_organisation'); ?></p>
+                <?php if( get_field('opencall_credits_organisation') ): ?>
+                    <h4>Organisation</h4>
+                    <p><?php the_field('opencall_credits_organisation'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Deadline</h4>
-                <span><?php the_field('opencall_credits_deadline'); ?></span>
+                <?php if( get_field('opencall_credits_deadline') ): ?>
+                    <h4>Deadline</h4>
+                    <p><?php the_field('opencall_credits_deadline'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Open Call Website</h4>
-                <span><?php the_field('opencall_credits_website'); ?></span>
+                <?php if( get_field('opencall_credits_website') ): ?>
+                    <h4>Open Call Website</h4>
+                    <p><?php the_field('opencall_credits_website'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Open Call Social Media</h4>
-                <p><?php the_field('opencall_credits_social-media'); ?></p>
+                <?php if( get_field('opencall_credits_social-media') ): ?>
+                    <h4>Open Call Social Media</h4>
+                    <p><?php the_field('opencall_credits_social-media'); ?></h4></p>
+                <?php endif; ?>
             </div>
         </div>
 

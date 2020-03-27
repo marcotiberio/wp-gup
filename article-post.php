@@ -42,7 +42,7 @@
     
     <div id="post-content">
         <div class="post-credits">
-        <div>
+            <div>
                 <?php if( get_field('article_credits_author') ): ?>
                     <h4>GUP Author</h4>
                     <p><?php the_field('article_credits_author'); ?></h4></p>
