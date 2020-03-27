@@ -12,21 +12,6 @@
 ?>
 
 	</div><!-- #content -->
-	<?php if(is_front_page()) { ?>
-	<script type="text/javascript">
-	$(document).ready(function() {
-	function showpanel(){
-		$('#modal').modal({
-		// add the plugin options as required
-		fadeDuration: 600,
-		fadeDelay: 0.6,
-		closeText: '&#215;'
-		});
-	}
-	setTimeout(showpanel, 2000) //set the delay time
-	});
-	</script>
-	<?php } ?>
 
 	<footer id="colophon" class="site-footer">
 		<div class="footer-custom">

@@ -166,20 +166,3 @@ function custom_add_google_fonts() {
 	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap', false );
 	}
 	add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
-
-// Works with the latest version of jQuery
-if (!is_admin()) {
-	wp_deregister_script('jquery'); // Deregister WordPress jQuery
-	wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', 'jquery', '3.1.1', true); // Load Google CDN jQuery
-	wp_enqueue_script('jquery'); // Enqueue it!
-   }
-   
-   // Load modal script
-   function load_javascript_file() {
-	$active = get_field('active');
-	 if($active == "yes") {
-	  wp_register_script('modal', get_template_directory_uri() . '/js/jquery.modal.min.js', 'jquery', '', true);
-	  wp_enqueue_script('modal');
-	 }
-   }
-   add_action('wp_enqueue_scripts', 'load_javascript_file' );

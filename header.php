@@ -21,20 +21,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-
-<?php
- // check we're on the front page
- if(is_front_page()) {
-  // grab the select field data
-  $active = get_field('active');		
-  // check the selection
-  if($active == 'yes') {
-   // get the modal code
-   get_template_part( 'modal' );
-  } 
- }
-?>
-
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'gup_underscore' ); ?></a>
 
