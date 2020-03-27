@@ -36,11 +36,13 @@ get_header();
 
 		<section id="modal">
 			<header class="modal--header">
-				<div class="modal--header_title">Title</div>
+				<div class="modal--header_title"><?php the_field('pop-up_title'); ?></div>
 				<div class="modal--header_close">X</div>
 			</header>
 			<main class="modal--body">
-				<p>Test</p>
+			<?php if( get_field('pop-up_image') ): ?>
+				<img src="<?php the_field('pop-up_image'); ?>" />
+			<?php endif; ?>
 			</main>
 		</section>
 	</div><!-- #primary -->
