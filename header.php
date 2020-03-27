@@ -26,7 +26,7 @@
  // check we're on the front page
  if(is_front_page()) {
   // grab the select field data
-  $active = get_field('active', 'option');		
+  $active = get_field('active');		
   // check the selection
   if($active == 'yes') {
    // get the modal code

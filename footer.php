@@ -12,7 +12,6 @@
 ?>
 
 	</div><!-- #content -->
-
 	<?php if(is_front_page()) { ?>
 	<script type="text/javascript">
 	$(document).ready(function() {

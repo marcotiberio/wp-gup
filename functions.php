@@ -176,7 +176,7 @@ if (!is_admin()) {
    
    // Load modal script
    function load_javascript_file() {
-	$active = get_field('active', 'option');
+	$active = get_field('active');
 	 if($active == "yes") {
 	  wp_register_script('modal', get_template_directory_uri() . '/js/jquery.modal.min.js', 'jquery', '', true);
 	  wp_enqueue_script('modal');
