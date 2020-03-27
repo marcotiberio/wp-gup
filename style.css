@@ -1459,3 +1459,7 @@ body {
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 }
+
+.modal--header_close {
+	text-align: right;
+}

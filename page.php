@@ -36,8 +36,8 @@ get_header();
 
 		<section id="modal">
 			<header class="modal--header">
-				<div>Title</div>
-				<div>X</div>
+				<div class="modal--header_title">Title</div>
+				<div class="modal--header_close">X</div>
 			</header>
 			<main class="modal--body">
 				<p>Test</p>
