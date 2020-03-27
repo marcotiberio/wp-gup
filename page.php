@@ -38,7 +38,7 @@ get_header();
 			<div class="modal--header_close" id="closeModal"><img src="assets/img/close.svg"></div>
 			<main class="modal--body">
 				<div>
-					<h3><?php the_field('pop-up_title'); ?></h3>
+					<h1><?php the_field('pop-up_title'); ?></h1>
 				</div>
 				<div>
 					<?php if( get_field('pop-up_image') ): ?>
