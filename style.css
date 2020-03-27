@@ -1440,6 +1440,7 @@ body {
 --------------------------------------------------------------*/
 
 #modal {
+	display: block;
 	position: absolute;
 	bottom: 0;
 	right: 0;
