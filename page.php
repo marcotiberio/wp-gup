@@ -41,7 +41,7 @@ get_header();
 			</header>
 			<main class="modal--body">
 			<?php if( get_field('pop-up_image') ): ?>
-				<img src="<?php the_field('pop-up_image'); ?>" />
+				<img class="modal--body_image" src="<?php the_field('pop-up_image'); ?>" />
 			<?php endif; ?>
 			</main>
 		</section>
