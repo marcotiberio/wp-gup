@@ -1434,3 +1434,15 @@ body {
 #page9-10 {
 	background-color: lightsalmon;
 }
+
+/*--------------------------------------------------------------
+## Modal
+--------------------------------------------------------------*/
+
+#modal {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 500px;
+	height: 300px;
+}
