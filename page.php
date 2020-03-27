@@ -15,10 +15,6 @@
 get_header();
 ?>
 
-	<section id="modal">
-		test
-	</section>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -37,6 +33,10 @@ get_header();
 		?>
 
 		</main><!-- #main -->
+
+		<section id="modal">
+		test
+	</section>
 	</div><!-- #primary -->
 
 <?php
