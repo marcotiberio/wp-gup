@@ -50,22 +50,27 @@
             </div>
             <div>
                 <?php if( get_field('event_credits_date') ): ?>
-                    <p>When 
-                    <br>
-                    <?php the_field('event_credits_date'); ?></p>
+                    <h4>When</h4>
+                    <p><?php the_field('event_credits_date'); ?></p>
                 <?php endif; ?>
             </div>
             <div>
-                <h4>Where</h4>
-                <span><?php the_field('event_credits_place'); ?></span>
+                 <?php if( get_field('event_credits_place') ): ?>
+                    <h4>Where</h4>
+                    <p><?php the_field('event_credits_place'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Website</h4>
-                <p><?php the_field('event_credits_website'); ?></p>
+                <?php if( get_field('event_credits_website') ): ?>
+                    <h4>Website</h4>
+                    <p><?php the_field('event_credits_website'); ?></h4></p>
+                <?php endif; ?>
             </div>
             <div>
-                <h4>Social Media</h4>
-                <p><?php the_field('event_credits_social-media'); ?></p>
+                <?php if( get_field('event_credits_social-media') ): ?>
+                    <h4>Social Media</h4>
+                    <p><?php the_field('event_credits_social-media'); ?></h4></p>
+                <?php endif; ?>
             </div>
         </div>
 
