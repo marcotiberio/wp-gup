@@ -1059,6 +1059,8 @@ body {
 }
 
 .site-branding {
+    position: absolute;
+	left: 10%;
 	width: 130px;
 	/* padding: 0 20%; */
 }
