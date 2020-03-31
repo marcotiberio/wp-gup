@@ -72,12 +72,15 @@
                 <?php if( get_field('book_credits_book-title') ): ?>
                     <h4>Title</h4>
                     <p><?php the_field('book_credits_book-title'); ?></h4></p>
-                    <?php 
-                    $image = get_field('book_credits_book-cover');
-                    $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-                    if( $image ) {
-                        echo wp_get_attachment_image( $image, $size );
-                    } ?>
+                    <?php if( get_field('book_credits_book-cover') ): ?>
+                        <h4>Cover</h4>
+                        <?php 
+                        $image = get_field('book_credits_book-cover');
+                        $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+                        if( $image ) {
+                            echo wp_get_attachment_image( $image, $size );
+                        } ?>
+                    <?php endif; ?>
                 <?php endif; ?>
             </div>
             <div>
