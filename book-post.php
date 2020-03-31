@@ -92,7 +92,7 @@
                     <p><?php the_field('book_credits_book-price'); ?></h4></p>
                 <?php endif; ?>
             </div>
-            <div>
+            <div id="book_credits_book-cover">
             <?php if( get_field('book_credits_book-cover') ): ?>
                 <h4>Cover</h4>
                 <?php 
