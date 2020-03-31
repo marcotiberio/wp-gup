@@ -113,7 +113,7 @@
         </div>
 
         <div class="post-text">
-            <p><?php the_field('portfolio_text'); ?></p>
+            <p><?php the_field('book_text'); ?></p>
         </div>
 		
     </div>
