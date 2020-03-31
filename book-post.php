@@ -93,10 +93,15 @@
                 <?php endif; ?>
             </div>
             <div>
-                <?php if( get_field('book_credits_book-cover') ): ?>
-                    <h4>Cover</h4>
-                    <p><?php the_field('book_credits_book-cover'); ?></h4></p>
-                <?php endif; ?>
+            <?php if( get_field('book_credits_book-cover') ): ?>
+                <h4>Cover</h4>
+                <?php 
+                $image = get_field('book_credits_book-cover');
+                $size = 'full'; // (thumbnail, medium, large, full or custom size)
+                if( $image ) {
+                    echo wp_get_attachment_image( $image, $size );
+                } ?>
+            <?php endif; ?>
             </div>
             <div>
                 <?php if( get_field('book_credits_publisher-website') ): ?>
