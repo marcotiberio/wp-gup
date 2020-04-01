@@ -38,9 +38,9 @@
 			<div class="footer-custom-column">
 				<h4>FOLLOW US</h4>
 				<div class="social-footer">
-					<a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/img/facebook-icon.png" alt="twitter-icon"></a>
-					<a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/img/facebook-icon.png" alt="twitter-icon"></a>
-					<a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/img/facebook-icon.png" alt="twitter-icon"></a>
+					<p>Facebook</p>
+					<p>Instagram</p>
+					<p>Twitter</p>
 				</div>
 			</div>
 		</div>
