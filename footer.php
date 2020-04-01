@@ -39,8 +39,8 @@
 				<h4>FOLLOW US</h4>
 				<div class="social-footer">
 					<a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/img/facebook-icon.png" alt="twitter-icon"></a>
-					<a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/img/close.svg" alt="twitter-icon"></a>
-					<a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/img/close.svg" alt="twitter-icon"></a>
+					<a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/img/facebook-icon.png" alt="twitter-icon"></a>
+					<a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/img/facebook-icon.png" alt="twitter-icon"></a>
 				</div>
 			</div>
 		</div>
