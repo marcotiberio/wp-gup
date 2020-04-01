@@ -37,8 +37,11 @@
 			</div>
 			<div class="footer-custom-column">
 				<h4>FOLLOW US</h4>
-				<p>
-				</p><i class="fab fa-facebook fa-lg"></i>&nbsp;<i class="fab fa-twitter fa-lg"></i>&nbsp;<i class="fab fa-instagram fa-lg"></i>
+				<div class="social-footer">
+					<img src="assets/img/twitter-icon.png" alt="twitter-icon">
+					<img src="assets/img/twitter-icon.png" alt="twitter-icon">
+					<img src="assets/img/twitter-icon.png" alt="twitter-icon">
+				</div>
 			</div>
 		</div>
 		<div class="site-info">
