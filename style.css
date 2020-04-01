@@ -1166,6 +1166,10 @@ body {
 	margin: 0 !important;
 }
 
+.footer-menu a {
+	font-weight: 400;
+}
+
 .footer-custom-column {
 	text-align: center;
 }
