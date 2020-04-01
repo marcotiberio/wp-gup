@@ -38,7 +38,7 @@
 			<div class="footer-custom-column">
 				<h4>FOLLOW US</h4>
 				<div class="social-footer">
-					<img src="assets/img/twitter-icon.png" alt="twitter-icon">
+					<img src="assets/img/close.svg" alt="twitter-icon">
 					<img src="assets/img/twitter-icon.png" alt="twitter-icon">
 					<img src="assets/img/twitter-icon.png" alt="twitter-icon">
 				</div>
