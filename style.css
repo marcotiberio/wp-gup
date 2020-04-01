@@ -1072,7 +1072,7 @@ body {
 	padding: 1.5% 0 0 25%;
 }
 
-.main-navigation a {
+#primary-menu a {
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
 	font-size: 14px;
     font-weight: 400;
