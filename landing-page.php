@@ -1,5 +1,6 @@
 <?php 
-	/* Template Name: Landing Page */ 
+	/* Template Name: Landing Page */
+get_header();
 ?>
 
 <section class="background_landing">
