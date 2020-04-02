@@ -44,7 +44,7 @@
 			<div class="footer-custom-column" id="footer-custom-col4">
 				<h4>FOLLOW US</h4>
 				<div class="social-footer">
-					<img src="assets/img/facebook-icon.png" alt="" style="width:100%;">
+					<img src="https://gup.devijgstudio.com/wp-content/uploads/2020/04/facebook-icon.png" alt="" style="width:100%;">
 					<p>Instagram</p>
 					<p>Twitter</p>
 				</div>
