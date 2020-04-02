@@ -1248,12 +1248,12 @@ body {
 	text-transform: uppercase;
 }
 
-#footer-custom-col2 p {
+.footer-custom-column p {
 	font-size: 12px;
 	color: #7a7b7d;
 }
 
-#footer-custom-col2 a {
+.footer-custom-column a {
 	font-size: 12px;
 	color: #7a7b7d;
 	text-decoration: none;
@@ -1262,6 +1262,10 @@ body {
 
 #footer-custom-col2 a:hover {
 	text-decoration: underline;
+}
+
+#footer-custom-col3 {
+	padding: 0 20%;
 }
 
 .menu-footer-menu-container ul {
