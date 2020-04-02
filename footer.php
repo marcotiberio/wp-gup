@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="footer-custom">
-			<div class="footer-custom-column">
+			<div class="footer-custom-column" id="footer-custom-col1">
 				<h4>LINKS</h4>
 				<p>
 				<?php

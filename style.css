@@ -1260,6 +1260,11 @@ body {
 	line-height: 1rem;
 }
 
+#footer-custom-col1 ul li a {
+	font-size: 12px;
+	color: #7a7b7d;
+}
+
 #footer-custom-col2 a:hover {
 	text-decoration: underline;
 }
