@@ -20,7 +20,7 @@
 		endwhile; // End of the loop.
 	?>
 
-	<button class="button--close_landing">X</button>
+	<button class="button--close_landing"><a href="https://gup.devijgstudio.com/">X</a></button>
     <button class="button_landing">
 		<?php 
 		$link = get_field('button');
