@@ -1123,6 +1123,14 @@ body {
 	height: 100vh !important;
 }
 
+.page-template-landing-page header {
+	display: none;
+}
+
+.page-template-landing-page footer {
+	display: none;
+}
+
 
 /*--------------------------------------------------------------
 ## Custom Page Footer
