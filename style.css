@@ -1133,6 +1133,8 @@ body {
 }
 
 .button_landing {
+	position: absolute;
+	bottom: 15%;
 	margin: auto;
     width: fit-content;
 	border: 3px solid black;
