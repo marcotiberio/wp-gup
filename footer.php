@@ -17,12 +17,14 @@
 		<div class="footer-custom">
 			<div class="footer-custom-column">
 				<h4>LINKS</h4>
+				<p>
 				<?php
 				wp_nav_menu( array(
 					'theme_location' => 'footer-menu',
 					'menu_id'        => 'footer-menu',
 				) );
 				?>
+				</p>
 			</div>
 			<div class="footer-custom-column" id="footer-custom-col2">
 				<h4>EDITORIAL OFFICE</h4>
