@@ -1184,7 +1184,7 @@ body {
 	text-decoration: none;
 }
 
-.button_landing a {
+.button_landing a:hover {
 	color: white;
 	text-decoration: none;
 }
