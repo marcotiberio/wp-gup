@@ -1131,6 +1131,13 @@ body {
 	display: none;
 }
 
+.button_landing {
+	position: absolute;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
 
 /*--------------------------------------------------------------
 ## Custom Page Footer
