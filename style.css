@@ -1166,8 +1166,11 @@ body {
 	border: 2px solid black;
 	border-radius: 0;
 	background-color: transparent;
-	color: black;
 	transition: 0.3s;
+}
+
+.button_landing a {
+	color: black;
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
 	font-size: 16px;
 }
