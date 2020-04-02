@@ -44,9 +44,7 @@
 			<div class="footer-custom-column" id="footer-custom-col4">
 				<h4>FOLLOW US</h4>
 				<div class="social-footer">
-					<p>Facebook</p>
-					<p>Instagram</p>
-					<p>Twitter</p>
+					<img src="assets/img/facebook-icon.png" alt="" style="width:100%;">
 				</div>
 			</div>
 		</div>
