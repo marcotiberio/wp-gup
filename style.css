@@ -1563,8 +1563,8 @@ body {
 ## Modal
 --------------------------------------------------------------*/
 
-#modal {
-	display: none;
+/* #modal {
+	display: block;
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -1621,4 +1621,4 @@ body {
 .modal--body_image {
 	width: 200px;
 	height: auto;
-}
+} */
