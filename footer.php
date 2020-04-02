@@ -35,7 +35,10 @@
 				<a href="mailto:info@gupmagazine.com" target="_blank">info@gupmagazine.com</a>
 				</p>
 			</div>
-			<div class="footer-custom-column" id="footer-custom-col3"></div>
+			<div class="footer-custom-column" id="footer-custom-col3">
+			<h4>NEWSLETTER</h4>
+			<p>Stay up to date on the latest publications, events, articles and open calls</p>
+			</div>
 			<div class="footer-custom-column">
 				<h4>FOLLOW US</h4>
 				<div class="social-footer">
