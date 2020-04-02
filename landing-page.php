@@ -6,8 +6,6 @@
 
 <section class="background_landing">
 
-<button class="button--close_landing">X</button>
-
     <?php
 		while ( have_posts() ) :
 			the_post();
@@ -22,6 +20,7 @@
 		endwhile; // End of the loop.
 	?>
 
+	<button class="button--close_landing">X</button>
     <button class="button_landing">VISIT</button>
 
 </section>
