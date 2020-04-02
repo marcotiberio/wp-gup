@@ -1,7 +1,8 @@
 <?php 
 	/* Template Name: Landing Page */
-get_header();
 ?>
+
+<?php get_header(); ?>
 
 <section class="background_landing">
 
@@ -22,3 +23,8 @@ get_header();
     <button class="button_landing">VISIT</button>
 
 </section>
+
+
+<?php
+get_sidebar();
+get_footer();
