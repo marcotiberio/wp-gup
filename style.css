@@ -1559,7 +1559,7 @@ body {
 --------------------------------------------------------------*/
 
 #modal {
-	display: block;
+	display: none;
 	position: fixed;
 	bottom: 0;
 	right: 0;
