@@ -21,7 +21,17 @@
 	?>
 
 	<button class="button--close_landing">X</button>
-    <button class="button_landing">VISIT</button>
+    <button class="button_landing">
+		<?php 
+		$link = get_field('button');
+		if( $link ): 
+			$link_url = $link['url'];
+			$link_title = $link['title'];
+			$link_target = $link['target'] ? $link['target'] : '_blank';
+			?>
+			<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+		<?php endif; ?>
+	</button>
 
 </section>
 
