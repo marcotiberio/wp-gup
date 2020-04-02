@@ -6,6 +6,8 @@
 
 <section class="background_landing">
 
+<button class="button--close_landing">X</button>
+
     <?php
 		while ( have_posts() ) :
 			the_post();
