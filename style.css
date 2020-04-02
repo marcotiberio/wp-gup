@@ -1111,6 +1111,7 @@ body {
 .background_landing {
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 
 .video-landing {
@@ -1132,10 +1133,11 @@ body {
 }
 
 .button_landing {
-	position: absolute;
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
+	margin: auto;
+    width: fit-content;
+	border: 3px solid black;
+	background-color: transparent;
+    padding: 10px;
 }
 
 
