@@ -1078,7 +1078,7 @@ body {
 
 #primary-menu .sub-menu {
 	margin: 0;
-	padding: 27px 0 0 0;
+	padding: 17% 0 0 0;
 	position: absolute;
 	border: none;
 }
@@ -1092,7 +1092,6 @@ body {
 }
 
 #primary-menu .sub-menu li:hover {
-	background-color: lightgray;
 	color: currentcolor;
 }
 
