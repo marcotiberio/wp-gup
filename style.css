@@ -1095,6 +1095,10 @@ body {
 	color: currentcolor;
 }
 
+.menu-item {
+	font-weight: normal;
+}
+
 
 /*--------------------------------------------------------------
 ## Home
