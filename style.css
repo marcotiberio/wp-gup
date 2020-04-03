@@ -1093,6 +1093,7 @@ body {
 
 #primary-menu .sub-menu li:hover {
 	background-color: lightgray;
+	color: currentcolor;
 }
 
 
