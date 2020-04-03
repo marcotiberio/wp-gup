@@ -1074,14 +1074,14 @@ body {
 
 #primary-menu .sub-menu {
 	margin: 0;
-	padding: 20% 0 0 0;
+	padding: 27px 0 0 0;
 	position: absolute;
 	border: none;
 }
 
 #primary-menu .sub-menu li {
 	margin: 0;
-	padding: 5% 0 5% 0;
+	padding: 5% 0;
 	border-bottom: 1px solid lightgray;
 	text-decoration: none;
 	text-indent: 10px;
