@@ -719,6 +719,7 @@ a:hover, a:active {
 	cursor: pointer;
 	text-decoration: none;
 	background-color: lightgray;
+	color: currentColor;
 }
 
 .main-navigation a {
