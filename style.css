@@ -716,6 +716,7 @@ a:hover, a:active {
 
 .main-navigation li:hover {
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .main-navigation a {
