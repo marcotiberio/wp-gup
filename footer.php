@@ -44,9 +44,9 @@
 			<div class="footer-custom-column" id="footer-custom-col4">
 				<h4>FOLLOW US</h4>
 				<div class="social-footer">
-					<div><img src="https://gup.devijgstudio.com/wp-content/uploads/2020/04/facebook-icon.png" alt=""></div>
-					<div><img src="https://gup.devijgstudio.com/wp-content/uploads/2020/04/facebook-icon.png" alt=""></div>
-					<div><img src="https://gup.devijgstudio.com/wp-content/uploads/2020/04/facebook-icon.png" alt=""></div>
+					<div><i class="fab fa-facebook-square"></i></div>
+					<div><i class="fab fa-instagram-square"></i></div>
+					<div><i class="fab fa-twitter-square"></i></div>
 				</div>
 			</div>
 		</div>
