@@ -45,7 +45,8 @@ if ( ! function_exists( 'gup_underscore_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'gup_underscore' ),
-			'footer-menu' => esc_html__( 'Footer Menu', 'gup_underscore' )
+			'footer-menu' => esc_html__( 'Footer Menu', 'gup_underscore' ),
+			'overlay-menu' => esc_html__( 'Overlay Menu', 'gup_underscore' )
 		) );
 
 		/*
