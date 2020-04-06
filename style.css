@@ -718,7 +718,6 @@ a:hover, a:active {
 .main-navigation li:hover {
 	cursor: pointer;
 	text-decoration: none;
-	background-color: lightgray;
 	color: currentColor;
 }
 
