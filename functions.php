@@ -171,10 +171,9 @@ function custom_add_google_fonts() {
 	add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
 
 
-function wpforo_search_form( $html ) {
 
-    $html = str_replace( 'placeholder="Search ', 'placeholder="&#x1F50D;', $html );
 
-    return $html;
-}
-add_filter( 'get_search_form', 'wpforo_search_form' );
+// Alter core searchform placeholder (such as sidebar widget)
+add_filter( 'wpex_search_placeholder_text', function() {
+    return __( 'Search our blog', 'Total' );
+} );
