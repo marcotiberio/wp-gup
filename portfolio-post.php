@@ -68,10 +68,16 @@
                 <?php endif; ?>
             </div>
             <div>
-                <?php if( get_field('portfolio_credits_social-media') ): ?>
                     <h4>Social Media</h4>
-                    <p><?php the_field('portfolio_credits_social-media'); ?></h4></p>
-                <?php endif; ?>
+                    <?php if( get_field('facebook') ): ?>
+                        <h4>Social Media</h4>
+                        <li><a href="<?php echo the_field('facebook'); ?>">facebook</a></li>
+                    <?php endif; ?>
+                    <?php if( get_field('instagram') ): ?>
+                        <h4>Social Media</h4>
+                        <li><a href="<?php echo the_field('instagram'); ?>">instagram</a></li>
+                    <?php endif; ?>
+
             </div>
         </div>
 
