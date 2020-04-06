@@ -55,6 +55,9 @@
 				?>
 			</nav>
 		</div><!-- #site-navigation -->
+		<div>
+		<?php get_search_form(); ?>
+		</div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
