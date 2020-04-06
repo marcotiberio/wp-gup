@@ -169,3 +169,12 @@ function custom_add_google_fonts() {
 	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap', false );
 	}
 	add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
+
+
+function wpforo_search_form( $html ) {
+
+    $html = str_replace( 'placeholder="Search ', 'placeholder="Press ENTER to search ', $html );
+
+    return $html;
+}
+add_filter( 'get_search_form', 'wpforo_search_form' );
