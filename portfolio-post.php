@@ -68,14 +68,13 @@
                 <?php endif; ?>
             </div>
             <div>
-                    <h4>Social Media</h4>
                     <?php if( get_field('facebook') ): ?>
-                        <h4>Social Media</h4>
-                        <li><a href="<?php echo the_field('facebook'); ?>">facebook</a></li>
+                        <h4>Facebook</h4>
+                        <p><a href="<?php echo the_field('facebook'); ?>">facebook</a></p>
                     <?php endif; ?>
                     <?php if( get_field('instagram') ): ?>
-                        <h4>Social Media</h4>
-                        <li><a href="<?php echo the_field('instagram'); ?>">instagram</a></li>
+                        <h4>Instagram</h4>
+                        <p><a href="<?php echo the_field('instagram'); ?>">instagram</a></p>
                     <?php endif; ?>
 
             </div>
