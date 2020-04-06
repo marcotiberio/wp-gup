@@ -70,11 +70,11 @@
             <div>
                     <?php if( get_field('facebook') ): ?>
                         <h4>Facebook</h4>
-                        <p><a href="<?php echo the_field('facebook'); ?>">facebook</a></p>
+                        <p><a href="<?php echo the_field('facebook'); ?>" target="_blank">Facebook</a></p>
                     <?php endif; ?>
                     <?php if( get_field('instagram') ): ?>
                         <h4>Instagram</h4>
-                        <p><a href="<?php echo the_field('instagram'); ?>">instagram</a></p>
+                        <p><a href="<?php echo the_field('instagram'); ?>" target="_blank">Instagram</a></p>
                     <?php endif; ?>
 
             </div>
