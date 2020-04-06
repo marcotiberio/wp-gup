@@ -173,7 +173,7 @@ function custom_add_google_fonts() {
 
 function wpforo_search_form( $html ) {
 
-    $html = str_replace( 'placeholder="Search ', 'placeholder="Press ENTER to search ', $html );
+    $html = str_replace( 'placeholder="Search ', 'placeholder="&#x1F50D;', $html );
 
     return $html;
 }
