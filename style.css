@@ -1098,8 +1098,8 @@ body {
 	font-weight: normal;
 }
 
-.nav--search {
-	
+.nav--search form{
+	padding-top: 5%;
 }
 
 
