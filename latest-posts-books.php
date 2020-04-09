@@ -37,6 +37,7 @@
 						<header class="entry-header">
 							<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
 						</header>
+						<h5><?php the_field('post_subtitle'); ?></h5>
 						<div class="entry-content">
 							<?php the_excerpt(); ?>
 							<a href="<?php the_permalink(); ?>">Read More</a>
