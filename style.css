@@ -710,7 +710,7 @@ a:hover, a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
-	padding-right: 10%;
+	padding-left: 10%;
 	text-transform: uppercase;
 	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
 }
