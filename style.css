@@ -1130,54 +1130,7 @@ body {
 	margin-right: 2% !important;
 }
 
-.home-slider_post-title {
-	margin: 0;
-	padding: 0;
-  	position: absolute;
-  	top: 300px;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-	width: fit-content;
-  	height: auto;
-	
-	transition: 0.3s;
-}
 
-.home-slider_post-title:hover {
-	cursor: pointer;
-	filter: invert(100%);
-}
-
-.home-slider_post-title a {
-	text-decoration: underline;
-	transition: ease-in-out 0.3s;
-}
-
-.home-slider_post-title a:hover {
-	cursor: pointer;
-	text-decoration: none;
-}
-
-.home-slider_post-more {
-	margin: 0;
-	padding: 0 10px;
-  	position: absolute;
-  	top: 370px;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-	width: fit-content;
-  	height: auto;
-  
-	background-color: grey;
-	color: white;
-	transition: 0.3s;
-}
-
-.home-slider_post-more:hover {
-	cursor: pointer;
-	background-color: black;
-	color: white;
-}
 
 .home-slider_custom-field {
 	margin-bottom: 0;
