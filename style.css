@@ -1483,7 +1483,11 @@ body {
 }
 
 .entry-header {
-	text-align: center;
+	text-align: left;
+}
+
+.page-template-latestposts .entry-title {
+	display: block !important;
 }
 
 .latest-posts {
