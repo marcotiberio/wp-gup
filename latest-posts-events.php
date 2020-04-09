@@ -1,5 +1,5 @@
 <?php 
-	/* Template Name: Latest Posts */ 
+	/* Template Name: Latest Posts Events */ 
 ?>
 
 <?php get_header(); ?>
