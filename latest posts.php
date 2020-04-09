@@ -17,12 +17,7 @@
 
 			<?php if ( $the_query->have_posts() ) : ?>
 			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-			<?php
-            if ( has_post_thumbnail() ) :
-                the_post_thumbnail();
-            endif;
-            ?>
+			
 
 				<h3><?php the_title(); ?></h3>
 				<p><?php the_excerpt(); ?></p>
