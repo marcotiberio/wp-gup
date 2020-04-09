@@ -35,7 +35,7 @@
 						</div>
 						<div>
 						<header class="entry-header">
-							<h3 class="post-title"><?php the_title(); ?></h3>
+							<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
 						</header>
 						<div class="entry-content">
 							<?php the_excerpt(); ?>
