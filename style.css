@@ -1484,6 +1484,20 @@ body {
 	display: none;
 }
 
+/*--------------------------------------------------------------
+## Latest Posts Custom
+--------------------------------------------------------------*/
+
+.latestpost--custom {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 0px;
+
+  margin-bottom: 40px;
+}
+
 .latestpost--custom .entry-header {
 	font-size: 1.17em;
 	text-align: left;
@@ -1497,6 +1511,10 @@ body {
   	text-transform: uppercase;
 	text-decoration: none;
 	text-align: left;
+}
+
+.latestpost--custom .entry-header h3 {
+	margin: 0;
 }
 
 .latest-posts {
