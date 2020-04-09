@@ -1133,12 +1133,12 @@ body {
 .home-slider_post-title {
 	margin: 0;
 	padding: 0;
-  position: absolute;
-  top: 300px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  	position: absolute;
+  	top: 300px;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 	width: fit-content;
-  height: auto;
+  	height: auto;
 }
 
 .home-slider_post-title a {
@@ -1154,14 +1154,17 @@ body {
 .home-slider_post-more {
 	margin: 0;
 	padding: 0 10px;
-  position: absolute;
-  top: 370px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  	position: absolute;
+  	top: 370px;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 	width: fit-content;
-  height: auto;
-	text-transform: uppercase;
-	color: white;
+  	height: auto;
+	
+  	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+  	text-transform: uppercase;
+  	color: white;
   
 	background-color: grey;
 	transition: ease-in-out 0.3s;
