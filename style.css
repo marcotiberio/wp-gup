@@ -1484,12 +1484,9 @@ body {
 	display: none;
 }
 
-.page-template-latestposts .entry-header a {
+.latestpost--custom .entry-header {
+	font-size: 1.17em;
 	text-align: left;
-}
-
-.page-template-latestposts .entry-title {
-	display: block !important;
 }
 
 .latestpost--custom .entry-header a {
@@ -1498,7 +1495,8 @@ body {
   	font-weight: 700;
   	color: #333333;
   	text-transform: uppercase;
-	text-decoration: none;	
+	text-decoration: none;
+	text-align: left;
 }
 
 .latest-posts {
