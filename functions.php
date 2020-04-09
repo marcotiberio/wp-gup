@@ -203,3 +203,10 @@ add_image_size( 'medium_large', '768', '0', true );
 add_image_size( 'Custom', '1200', '628', true );
 add_image_size( 'thumbnail-list', '460', '180', true );
 add_image_size( 'thumbnail-list-medium', '460', '250', true );
+
+
+function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
+	$html = '<a href="' . get_permalink( $post_id ) . '" title="' . esc_attr( get_the_title( $post_id ) ) . '">' . $html . '</a>';
+	return $html;
+	}
+	add_filter( 'post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3 );
