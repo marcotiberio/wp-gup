@@ -204,6 +204,9 @@ add_image_size( 'Custom', '1200', '628', true );
 add_image_size( 'thumbnail-list', '460', '180', true );
 add_image_size( 'thumbnail-list-medium', '460', '250', true );
 
+/** 
+ * Add link to post featured images. 
+ */
 
 function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
 	$html = '<a href="' . get_permalink( $post_id ) . '" title="' . esc_attr( get_the_title( $post_id ) ) . '">' . $html . '</a>';
