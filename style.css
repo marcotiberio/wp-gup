@@ -1486,6 +1486,20 @@ body {
 	text-align: center;
 }
 
+.latest-posts {
+	margin: 0;
+	padding: 0;
+}
+
+.latest-posts a {
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+	font-size: 1.17em;
+  	font-weight: 700;
+  	color: #333333;
+  	text-transform: uppercase;
+	text-decoration: none;	
+}
+
 #related_posts {
 	margin: 4% 0
 }
