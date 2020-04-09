@@ -8,25 +8,36 @@
 		<main id="main" class="site-main">
 
 		<?php 
-			// the query
-			$the_query = new WP_Query( array(
-				'category_name' => 'events',
+			$args = array(
+				'post_type' => 'post',
+				'post_status' => 'publish',
+				'category_name' => 'wordpress',
 				'posts_per_page' => 5,
-			)); 
-			?>
-
-			<?php if ( $the_query->have_posts() ) : ?>
-			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-				<?php the_title(); ?>
-				<?php the_excerpt(); ?>
-
-			<?php endwhile; ?>
-			<?php wp_reset_postdata(); ?>
-
-			<?php else : ?>
-			<p><?php __('No Events'); ?></p>
-			<?php endif; ?>
+			);
+			$arr_posts = new WP_Query( $args );
+			 
+			if ( $arr_posts->have_posts() ) :
+			 
+				while ( $arr_posts->have_posts() ) :
+					$arr_posts->the_post();
+					?>
+					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+						<?php
+						if ( has_post_thumbnail() ) :
+							the_post_thumbnail();
+						endif;
+						?>
+						<header class="entry-header">
+							<h1 class="entry-title"><?php the_title(); ?></h1>
+						</header>
+						<div class="entry-content">
+							<?php the_excerpt(); ?>
+							<a href="<?php the_permalink(); ?>">Read More</a>
+						</div>
+					</article>
+					<?php
+				endwhile;
+			endif; ?>
 		
 
 		</main><!-- #main -->
