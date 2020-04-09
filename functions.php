@@ -202,4 +202,4 @@ add_image_size( '2048x2048', '2048', '2048', false );
 add_image_size( 'medium_large', '768', '0', true );
 add_image_size( 'Custom', '1200', '628', true );
 add_image_size( 'thumbnail-list', '460', '180', true );
-add_image_size( 'thumbnail-list', '460', '250', true );
+add_image_size( 'thumbnail-list-medium', '460', '250', true );
