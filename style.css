@@ -1386,6 +1386,7 @@ body {
 .page .entry-title {
 	display: block;
 	text-align: left;
+	margin-bottom: 50px;
 }
 
 .pages-main {
