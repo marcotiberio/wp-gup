@@ -1383,7 +1383,7 @@ body {
 /*--------------------------------------------------------------
 ## Pages
 --------------------------------------------------------------*/
-.page .entry-title a {
+.page .entry-title {
 	display: block;
 	text-align: left;
 	margin-bottom: 50px;
@@ -1484,7 +1484,7 @@ body {
 	display: none;
 }
 
-.page-template-latestposts .entry-header {
+.page-template-latestposts .entry-header a {
 	text-align: left;
 }
 
