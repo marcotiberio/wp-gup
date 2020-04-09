@@ -1384,7 +1384,7 @@ body {
 ## Pages
 --------------------------------------------------------------*/
 .page .entry-title {
-	display: none;
+	display: block;
 }
 
 .pages-main {
