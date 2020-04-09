@@ -1383,7 +1383,7 @@ body {
 /*--------------------------------------------------------------
 ## Pages
 --------------------------------------------------------------*/
-.page .entry-title {
+.page .entry-title a {
 	display: block;
 	text-align: left;
 	margin-bottom: 50px;
