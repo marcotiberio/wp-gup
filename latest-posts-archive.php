@@ -16,7 +16,7 @@
 				'post_type' => 'post',
 				'post_status' => 'publish',
 				'category_name' => 'archive',
-				'posts_per_page' => 200,
+				'posts_per_page' => 20,
 			);
 			$arr_posts = new WP_Query( $args );
 			 
