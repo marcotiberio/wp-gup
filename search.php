@@ -1,55 +1,56 @@
 <?php
 /**
- * The template for displaying search results pages
+ * The template for displaying search results pages.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
- * @package gup_underscore
+ * @package stackstar.
  */
+ 
+get_header(); ?>
 
-get_header();
-?>
-
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'gup_underscore' ), '<span>' . get_search_query() . '</span>' );
-					?>
-				</h1>
-			</header><!-- .page-header -->
-
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'search' );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-		</main><!-- #main -->
-	</section><!-- #primary -->
-
-<?php
-get_sidebar();
-get_footer();
+	<div id="primary--page-main" class="content-area--page-main">
+		<main id="main--page-main" class="site-main--page-main">
+    		<div class="search-container">
+ 
+        			<?php if ( have_posts() ) : ?>
+ 
+					<header class="entry-header">
+						<h1 class="entry-title"><?php printf( esc_html__( 'Search Results for: %s', stackstar ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+					</header><!-- .page-header -->
+ 
+					<?php /* Start the Loop */ ?>
+					<?php while ( have_posts() ) : the_post(); ?>
+					<article class="latestpost--custom" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+						<div>
+						<?php
+						if ( has_post_thumbnail() ) :
+							the_post_thumbnail();
+						endif;
+						?>
+						</div>
+						<div>
+						<header class="entry-header">
+							<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
+							<h5 class="post-subtitle"><?php the_field('post_subtitle'); ?></h5>
+						</header>
+						<div class="entry-content">
+							<?php the_excerpt(); ?>
+							<a href="<?php the_permalink(); ?>">Read More</a>
+						</div>
+						</div>
+					</article>
+		
+					<?php endwhile; ?>
+		
+					<?php //the_posts_navigation(); ?>
+		
+				<?php else : ?>
+		
+					<?php //get_template_part( 'template-parts/content', 'none' ); ?>
+		
+				<?php endif; ?>
+ 
+			</div>
+		</main>
+	</div>
+<?php //get_sidebar(); ?>
+<?php get_footer(); ?>
