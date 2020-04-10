@@ -1,68 +1,85 @@
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
 <?php
 /**
- * The template for displaying search results pages
+ * The template for displaying search results pages.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
- * @package gup_underscore
+ * @package stackstar.
  */
+ 
+get_header(); ?>
+    <div class="search-container">
+    <section id="primary" class="content-area">
 
-get_header();
-?>
+	
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
 
-		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'gup_underscore' ), '<span>' . get_search_query() . '</span>' );
-					?>
-				</h1>
-			</header><!-- .page-header -->
-
-			<?php 
-			$args = array(
-				'post_type' => 'post',
-				'post_status' => 'publish',
-				'posts_per_page' => 20,
-			);
-			$arr_posts = new WP_Query( $args );
-			 
-			if ( $arr_posts->have_posts() ) :
-			 
-				while ( $arr_posts->have_posts() ) :
-					$arr_posts->the_post();
-					?>
-					<article class="latestpost--custom" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						<div>
-						<?php
-						if ( has_post_thumbnail() ) :
-							the_post_thumbnail();
-						endif;
-						?>
-						</div>
-						<div>
-						<header class="entry-header">
-							<a href="<?php the_permalink(); ?>"><h3 class="post-title"><?php the_title(); ?></h3></a>
-							<h5 class="post-subtitle"><?php the_field('post_subtitle'); ?></h5>
-						</header>
-						<div class="entry-content">
-							<?php the_excerpt(); ?>
-							<a href="<?php the_permalink(); ?>">Read More</a>
-						</div>
-						</div>
-					</article>
-					<?php
-				endwhile;
-			endif; ?>
-
-		</main><!-- #main -->
-	</section><!-- #primary -->
-
-<?php
-get_sidebar();
-get_footer();
+        <main id="main" class="site-main" role="main">
+        <div class="search-page-form" id="ss-search-page-form"><?php get_search_form(); ?></div>
+ 
+        <?php if ( have_posts() ) : ?>
+ 
+            <header class="page-header">
+                <span class="search-page-title"><?php printf( esc_html__( 'Search Results for: %s', stackstar ), '<span>' . get_search_query() . '</span>' ); ?></span>
+            </header><!-- .page-header -->
+ 
+            <?php /* Start the Loop */ ?>
+            <?php while ( have_posts() ) : the_post(); ?>
+            <span class="search-post-title"><?php the_title(); ?></span>
+            <span class="search-post-excerpt"><?php the_excerpt(); ?></span>
+            <span class="search-post-link"><a href="<?php the_permalink(); ?>"><?php the_permalink(); ?></a></span>
+ 
+            <?php endwhile; ?>
+ 
+            <?php //the_posts_navigation(); ?>
+ 
+        <?php else : ?>
+ 
+            <?php //get_template_part( 'template-parts/content', 'none' ); ?>
+ 
+        <?php endif; ?>
+ 
+        </main><!-- #main -->
+    </section><!-- #primary -->
+</div>
+<?php //get_sidebar(); ?>
+<?php get_footer(); ?>
