@@ -213,3 +213,21 @@ function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
 	return $html;
 	}
 	add_filter( 'post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3 );
+
+
+
+
+
+function whitespider_private_posts_subscribers(){
+
+ $subRole = get_role( 'subscriber' );
+
+ $subRole->add_cap( 'read_private_posts' );
+
+$subRole->add_cap( 'read_private_pages' );
+
+}
+
+add_action( 'init', 'ws_private_posts_subscribers' );
+
+?>
