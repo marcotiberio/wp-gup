@@ -1388,6 +1388,23 @@ body {
 	width: 40%;
 }
 
+@media only screen and (max-width: 900px) {
+	
+	.footer-custom {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 20px;
+	
+		background-color: #222326;
+		color: white;
+	
+		margin: 0 !important;
+	}
+
+}
+
 /*--------------------------------------------------------------
 ## Pages
 --------------------------------------------------------------*/
