@@ -46,7 +46,8 @@ if ( ! function_exists( 'gup_underscore_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'gup_underscore' ),
 			'footer-menu' => esc_html__( 'Footer Menu', 'gup_underscore' ),
-			'overlay-menu' => esc_html__( 'Overlay Menu', 'gup_underscore' )
+			'overlay-menu' => esc_html__( 'Overlay Menu', 'gup_underscore' ),
+			'mobile-menu' => esc_html__( 'Mobile Menu', 'gup_underscore' )
 		) );
 
 		/*
@@ -131,6 +132,8 @@ function gup_underscore_scripts() {
 	wp_enqueue_script( 'gup_underscore-transition', get_template_directory_uri() . '/js/transition.js', array(), '20151215', true );
 
 	wp_enqueue_script('gup_underscore-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '20151215', true );
+
+	wp_enqueue_script('gup_underscore-script', get_template_directory_uri() . '/js/toggle-mobile-menu.js', array( 'jquery' ), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
