@@ -737,7 +737,7 @@ a:hover, a:active {
 		display: none;
 	}
 	.main-navigation ul {
-		display: grid;
+		display: block;
 	}
 }
 
@@ -1129,13 +1129,13 @@ body {
 		padding: .6em 1em .4em;
 	}
 
-	/* #primary-menu {
+	#primary-menu {
 		background-color: white;
 		position: absolute;
 		width: 100%;
 		left: 0;
 		height: 300px;
-	} */
+	}
 
 }
 
@@ -1741,8 +1741,4 @@ body {
 
 #page9-10 {
 	background-color: lightsalmon;
-}
-
-.mobile-menu{
-    display: none;
 }
