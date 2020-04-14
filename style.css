@@ -1112,13 +1112,7 @@ body {
 
 @media only screen and (max-width: 900px) {
 
-	.site-header {
-		display: grid;
-		grid-template-columns: 3r 1fr 1fr;
-		grid-template-rows: 1fr;
-		grid-column-gap: 0px;
-		grid-row-gap: 0px;
-	}
+	
 
 }
 
