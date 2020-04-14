@@ -1121,6 +1121,17 @@ body {
 		height: 70px;
 	}
 
+	.main-navigation .menu-toggle {
+    	border: none;
+    	background: transparent;
+    	color: black;
+    	font-size: 12px;
+    	font-size: 0.75rem;
+    	line-height: 1;
+		padding: .6em 1em .4em;
+		margin-top: 10px;
+	}
+
 }
 
 
