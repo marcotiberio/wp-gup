@@ -1139,24 +1139,6 @@ body {
 
 }
 
-@media only screen and (min-width: 901px){
-    #primary-menu{
-        display: block !important;
-    }
-    .mobile-menu{
-        display: none !important;
-    }
-}
-
-@media only screen and (max-width: 900px){
-    #primary-menu{
-        display: none !important;
-    }
-    .mobile-menu{
-        display: block !important;
-    }
-}
-
 
 /*--------------------------------------------------------------
 ## Home
