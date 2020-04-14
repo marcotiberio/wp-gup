@@ -1596,24 +1596,13 @@ body {
 		flex-basis: 100% !important;
 	}
 
-	.related_posts-grid {
-		margin-top: 2%;
-		padding: 0 10%;
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat(2, 1fr);
-		grid-column-gap: 0px;
-		grid-row-gap: 0px;
-	}
-
 	.latestpost--custom {
-		margin-top: 2%;
-		padding: 0 10%;
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: repeat(2, 1fr);
-		grid-column-gap: 0px;
-		grid-row-gap: 0px;
+		grid-template-rows: 1fr;
+		grid-column-gap: 0;
+		grid-row-gap: 20px;
+		margin-bottom: 40px;
 	}
 }
 
