@@ -732,7 +732,7 @@ a:hover, a:active {
 	display: block;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
 	}
@@ -1135,8 +1135,6 @@ body {
 		width: 100%;
 		left: 0;
 		height: 300px;
-		text-align: center;
-    	padding-top: 10%;
 	}
 
 }
