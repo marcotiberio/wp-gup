@@ -1137,15 +1137,9 @@ body {
 		height: 300px;
 	}
 
-	button#responsive-menu-button {
-		width: 55px;
-		height: 55px;
-		position: fixed;
-		top: 10px;
-		right: 5%;
-		background: transparent;
-		color: black !important;
-
+	.search-form {
+		display: none;
+	}
 }
 
 
