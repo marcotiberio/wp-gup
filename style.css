@@ -1607,13 +1607,13 @@ body {
 	}
 
 	.latestpost--custom {
+		margin-top: 2%;
+		padding: 0 10%;
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 2fr;
-		grid-column-gap: 20px;
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 0px;
 		grid-row-gap: 0px;
-	
-	  margin-bottom: 40px;
 	}
 }
 
