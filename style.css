@@ -1135,6 +1135,8 @@ body {
 		width: 100%;
 		left: 0;
 		height: 300px;
+		text-align: center;
+    	padding-top: 10%;
 	}
 
 }
