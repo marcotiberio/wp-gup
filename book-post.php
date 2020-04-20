@@ -27,8 +27,7 @@
 		endwhile; // End of the loop.
 		?>
 
-        </main><!-- #main -->
-    </div><!-- #primary -->
+        
 
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
