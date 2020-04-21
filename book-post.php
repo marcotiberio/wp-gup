@@ -32,7 +32,8 @@
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
-
+    
+    <?php if ( is_subscribed_to_memberful_plan( '154-big-awesome' ) ) : ?>
 
     <div id="post-title">
         <h2><?php the_field('book_title'); ?></h2>
@@ -174,5 +175,7 @@
 
     </main><!-- #main -->
     </div><!-- #primary -->
+
+    <?php endif; ?>
 
 <?php get_footer(); ?>
