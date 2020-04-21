@@ -131,6 +131,8 @@
 
     </div>
 
+    <?php endif; ?>
+
 
 </div>
 
@@ -175,7 +177,5 @@
 
     </main><!-- #main -->
     </div><!-- #primary -->
-
-    <?php endif; ?>
 
 <?php get_footer(); ?>
